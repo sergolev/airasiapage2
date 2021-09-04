@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper_main {
+    background: url("../img/headline.png") no-repeat top center;
+    background-color: #001821;
+}
+
+.container {
+    width: 1140px;
+    height: 412px;
+    margin: 0 auto;
+}
+
+
+.section__hero-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.review__title-section {    
+    position: absolute;
+    width: 511px;
+    height: 197px;
+    left: 390px;
+    top: 196px;
+}    
+
+.review__title {    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin-bottom: 27.5px;
+}
+
+.offers__title {
+    position: absolute;
+    margin-top: 220px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;            
+}
+
+.ofer__list{
+   margin-top: 50px;
+}
+
+.section__about{
+    margin-bottom: 106px;
+}
+
