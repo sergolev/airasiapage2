@@ -2,30 +2,31 @@
     font-size: 14px;
     position: relative;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 57px;
+    padding-bottom: 38px;
+    padding-top: 38px;
     background-color: #001821;
 }
 
-.footer__conteiner{
+.footer__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer__col {
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
 .footer__logo {
-    margin-right: 79px;
+    margin-right: 66px;
     align-items: center;
-    display: inline-ublock;
+    display: inline-block;
 }
 
-.footer__col--align--right{
+.footer__col--align--right {
     display: flex;
     justify-content: flex-end;
     align-items: center;

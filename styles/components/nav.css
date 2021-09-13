@@ -8,9 +8,10 @@
     color: #fff;
     text-decoration: none;
     align-items: center;
+    transition: .3s;
 }
 
-.site-nav__link_active {
+.site-nav__link_active, .site-nav__link:hover {
     color: crimson;
 }
 

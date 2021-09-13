@@ -1,63 +1,47 @@
-.pagination {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-
-.pagination a {
-    color: #fff;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s
-}
-  
-.pagination a.active {
-    color: white;
-}
-    
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-}
-
 .paginator {
     max-width: 375px;
     margin: 0 auto;
-    color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding-bottom: 86px;
 }
 
 .paginator__list, .paginator__item, .paginator__display {
-    display: inline-block;
+    display: flex;
 }
 
-.paginator__display{
+.paginator__display {
     position: relative;
-    width: 125px;
-    height: 20px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    color: #fff;
+    color: #000;
     margin-right: 25px;
-    margin-top: 57px;
 }
 
-.paginator__link{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
+.paginator__link {
+    font-weight: bold;
     font-size: 16px;
-    color: #fff;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
 }
 
-.paginator__item{
-    margin-right: 14px;
+.paginator__item {
+    margin-right: 2px;
+    border-radius: 50%;
+    transition: .3s;
 }
 
-.paginator_item:last-child{
-   display: inline-block;
-   margin-right: 0p;
+.paginator__item:hover {
+    background: red;
+}
+
+.paginator_item:last-child {
+    margin-right: 0;
 }
 

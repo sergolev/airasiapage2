@@ -3,11 +3,9 @@
 @import url('./components/logo.css');
 @import url('./components/nav.css');
 @import url('./components/address.css');
-@import url('./components/offers.css');
-@import url('./components/offer.css');
 @import url('./components/socials.css');
-@import url('./components/news.css');
-@import url('./components/features.css');
 @import url('./components/paginator.css');
-@import url('./components/about.css');
 @import url('./components/footer.css');
+@import url('./components/reviews.css');
+@import url('./components/banner.css');
+@import url('./components/form.css');
